@@ -7,22 +7,20 @@ body {
   }
   
   header {
-    background-color: rgb(43, 145, 201);
+    background-image: url("images/background.jpeg");
+    /*background-color: rgb(43, 145, 201);*/
     padding: 1rem;
     text-align: center;
   }
   
-  h1 {
-    color: #fff;
-    margin: 0;
-  }
 
   main{
     padding: 20px;
+    background-color: #56280730;
   }
   
   nav {
-    background-color: rgb(0, 0, 0);
+    background-color: #562705;
   }
   
   nav ul {
@@ -43,7 +41,7 @@ body {
   }
   
   nav a.active {
-    background-color: rgb(144, 139, 139);
+    background-color: #ab7136
   }
   
   .skip-link {
@@ -60,6 +58,10 @@ body {
     top: 10px;
   }
   
+  a:hover, a:focus{
+    text-decoration: underline;
+  }
+
   main {
     padding: 1rem;
   }
@@ -107,7 +109,7 @@ body {
   .breeds div{
     border: 2px solid black;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: white;
 
   }
 
