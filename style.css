@@ -6,12 +6,13 @@ body {
 
   }
   
-  header {
+ body > header {
     background-image: url("images/background.jpeg");
-    /*background-color: rgb(43, 145, 201);*/
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
   }
+  
   
 
   main{
@@ -83,6 +84,7 @@ body {
 
 
 
+
   /* Flexbox layout for index.html */
   #home-index{
     display: flex;
@@ -90,11 +92,15 @@ body {
     flex-direction: column;
   }
 
+  .main-view{
+    overflow: hidden;
+  }
+
 
   /* Flexbox layout for breeds.html */
   .breeds img{
     height: 300px;
-    width: 400px;
+    width: 395px;
     overflow: hidden;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
