@@ -1,6 +1,6 @@
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial Rounded MT Bold', arial;
     margin: 0;
     padding: 0;
 
@@ -36,7 +36,8 @@ body {
   }
 
   nav a.active{
-    background-color: #ab7136
+    background-color: #ab7136;
+    text-decoration:underline;
   }
   
   nav a {
