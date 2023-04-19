@@ -184,13 +184,24 @@ body {
       flex: 1;
     }
 
+    #home-index img{
+      width: 700px;
 
-  }
+    }
+    }
+
+
+  
 
   
   @media (min-width: 1200px) {
     nav ul {
       justify-content: space-between;
+    }
+
+    #home-index img{
+      width: 1000px;
+
     }
   }
   
